@@ -5,8 +5,8 @@ from google.oauth2.service_account import Credentials
 # ----------------------------
 # CONFIG YOU MUST SET
 # ----------------------------
-SHEET_ID = "PASTE_YOUR_GOOGLE_SHEET_ID_HERE"
-WORKSHEET_NAME = "Control"  # the tab name in your Google Sheet
+SHEET_ID = "1GVgRB_hgaRMQbOasCKfNugTcyhcdf9o37F9vAcf4ZiI"
+WORKSHEET_NAME = "on/off"  # the tab name in your Google Sheet
 
 # Cells for toggles (simple + reliable)
 CELL_POSTING_ENABLED = "B2"   # coffee_ig_posting enabled value TRUE/FALSE
@@ -88,3 +88,5 @@ st.markdown(
 )
 
 st.info("Tip: Keep your Make scenarios scheduled. The toggle acts like a valve at the start.")
+
+
